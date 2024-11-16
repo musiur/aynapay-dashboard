@@ -11,8 +11,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "CatoPay",
-  description: "CatoPay: A payment Gateway",
+  title: "AynaPay",
+  description: "AynaPay: A payment Gateway",
 };
 
 export default function RootLayout({
