@@ -1,12 +1,11 @@
-import { Button } from "@/components/ui/button";
+import PublicRoute from "@/components/layout/public.route";
+import LoginForm from "./_utils/login.form";
 
 const Page = () => {
   return (
-    <div className="container section space-y-8">
-      <h1 className="text-4xl font-bold">Catopay Authentication</h1>
-      <Button>Primary Button</Button>
-    </div>
+    <PublicRoute>
+      <LoginForm />
+    </PublicRoute>
   );
 };
-
 export default Page;
